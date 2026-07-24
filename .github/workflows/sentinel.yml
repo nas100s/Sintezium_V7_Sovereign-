@@ -1,0 +1,26 @@
+# Sintezium V7 Autonomous Sentinel
+# This workflow runs the AI-Risk Sentinel and Liquidity Monitor periodically.
+
+name: Sintezium Autonomous Monitor
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Every hour
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install web3 requests python-dotenv
+      - name: Run Sentinel Audit
+        env:
+          RPC_URL: ${{ secrets.RPC_URL }}
+          THIRDWEB_SECRET: ${{ secrets.THIRDWEB_SECRET }}
+        run: python scripts/real_tech_gasless_relay.py # Replace with actual monitor script
