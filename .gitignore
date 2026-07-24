@@ -1,0 +1,10 @@
+.env
+*.log
+__pycache__/
+.cache/
+node_modules/
+*.bin
+*.abi
+.gemini/
+!/
+SECRET_RESEARCH_DATA/
