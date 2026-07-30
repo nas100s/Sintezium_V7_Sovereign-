@@ -22,4 +22,3 @@ This project adheres to an absolute technical integrity mandate. **No simulation
 
 ## Author
 MLL Carotte (Vibration 333)
-Legal Representative: Dovnar Anastasia Viktorovna
