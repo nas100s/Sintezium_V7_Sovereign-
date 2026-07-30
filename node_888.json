@@ -1,0 +1,10 @@
+{
+  "name": "Geo Node 888 - Sintezium Discovery",
+  "description": "RWA asset: Geophysical node discovered on 2026-07-14. Lithospheric Pressure: 1.36 G. Valuation: 2649.13 POL.",
+  "location": "53.92099° N, 27.584393° E",
+  "value_POL": 2649.13,
+  "owner": "0x6B84F86583F3272F43c3C69CBAC2aEf5F82881cC",
+  "fractionalizationStandard": "ERC-6960",
+  "external_url": "https://sintezium.org/nodes/888",
+  "image": "ipfs://QmPlaceholder888/node888.png"
+}

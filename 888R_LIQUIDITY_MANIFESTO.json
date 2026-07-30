@@ -1,0 +1,20 @@
+{
+  "manifesto_version": "7.0.888R",
+  "project_id": "snz119",
+  "target_pair": "0xeeD334A4537d0942520167E33F173b42eB1dd994",
+  "liquidity_targets": {
+    "floor_price_MATIC": 0.1,
+    "target_liquidity_depth_USDC": 50000,
+    "resonance_factor": 1.19
+  },
+  "operational_modes": {
+    "scarcity_engine": "ACTIVE",
+    "buyback_intent": "ENABLED",
+    "gasless_relay": "PIMLICO_PROVISIONED"
+  },
+  "compliance": {
+    "real_tech_mandate": true,
+    "anti_theatre_policy": true,
+    "eip_standards": ["EIP-155", "EIP-20", "EIP-712", "EIP-4337"]
+  }
+}

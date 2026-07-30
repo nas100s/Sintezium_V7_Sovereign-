@@ -1,0 +1,20 @@
+[
+  {
+    "asset": "NODE_888",
+    "value_matic": 2649.13,
+    "resonance": 1.94,
+    "signature": "f5681cf336dd01eebfea8c0be345dcd3a029d3ff82632852bb91ebf6a981cb534ab301365ed85ce4c9d8c42d5c8335b1ea9849e37e7cc3d8c43fa4eece4d4e271c"
+  },
+  {
+    "asset": "IMG_20260317_013544.jpg",
+    "value_matic": 2900.25,
+    "resonance": 1.9335,
+    "signature": "673d7ad25983abe45db84cd72f43a57dc61ebb303eb3431335c2127d3025f3c55cc03b0a551cf196095e0f39094484d085dae7be1d0cdcb89c2e0977531d9f331c"
+  },
+  {
+    "asset": "IMG_20260422_200754131.jpg",
+    "value_matic": 2651.4,
+    "resonance": 1.7676,
+    "signature": "ae9c344bdfcf843548fc571814f5f8b2b12ba7b2ac2cdf55c4e67b1bda0fb719275475c16fae5da70c8dfabdfd682a00629081b7127f395c811c36d077b583551b"
+  }
+]

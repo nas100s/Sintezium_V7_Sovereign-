@@ -21,7 +21,7 @@ def generate_omnichain_intent(art_id, value_usd):
         'name': 'Omnichain M-CAR Router',
         'version': '1',
         'chainId': 42161, 
-        'verifyingContract': '0x0000000000000000000000000000000000000000'
+        'verifyingContract': '0x6B84F86583F3272F43c3C69CBAC2aEf5F82881cC'
     }
 
     message_types = {
@@ -40,7 +40,7 @@ def generate_omnichain_intent(art_id, value_usd):
         'nftContract': ART_CONTRACT_POLYGON,
         'tokenId': int(art_id),
         'paymentChainId': 42161,
-        'targetPoolPolygon': '0xeeD334A4537d0942520167E33F173b42eB1dd994',
+        'targetPoolPolygon': '0x6B84F86583F3272F43c3C69CBAC2aEf5F82881cC',
         'solverPaysGas': True
     }
 
